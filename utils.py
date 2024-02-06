@@ -37,3 +37,10 @@ def valid_anagram(s: str, t: str) -> bool:
         if ch: return False
     
     return True
+
+def GCD(a, b)
+    if a < b:
+        a, b = b, a
+    if not b:
+        return a
+    return GCD(b, a % b)
