@@ -18,3 +18,6 @@ def majority_element(nums: list[int]) -> int:
                 c = 1
     return el
 
+def xyz():
+    print(":)")
+
