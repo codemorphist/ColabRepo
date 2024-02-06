@@ -1,6 +1,7 @@
 def test():
     print("Test")
 
+
 def majority_element(nums: list[int]) -> int:
     """
     Boyer–Moore majority vote algorithm
@@ -20,4 +21,14 @@ def majority_element(nums: list[int]) -> int:
 
 def xyz():
     print(":)")
+
+
+def double(lst):
+    res = ""
+
+    for i in lst:
+        res += i
+        if i in "abcdefghijklmnopqrstuvwxyz":
+            res += i
+    return res 
 
