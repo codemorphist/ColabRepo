@@ -7,3 +7,7 @@ def fac(n: int) -> int:
         cahed[n] = res
         return res
 
+def is_five_exp(n: int) -> bool:
+	while n >= 5:
+		n //= 5
+	return n == 1
