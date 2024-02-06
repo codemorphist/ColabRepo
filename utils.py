@@ -44,3 +44,8 @@ def GCD(a, b)
     if not b:
         return a
     return GCD(b, a % b)
+
+def is_five_exp(n: int) -> bool:
+	while n >= 5:
+		n //= 5
+	return n == 1
