@@ -16,6 +16,9 @@ def isPrime(n: int):
 
 
 def valid_anagram(s: str, t: str) -> bool:
+    """
+    Function to validate anagram
+    """
     if len(s) != len(t):
         return False
 
@@ -38,12 +41,14 @@ def valid_anagram(s: str, t: str) -> bool:
     
     return True
 
+
 def GCD(a, b)
     if a < b:
         a, b = b, a
     if not b:
         return a
     return GCD(b, a % b)
+
 
 def is_five_exp(n: int) -> bool:
 	while n >= 5:
