@@ -54,3 +54,7 @@ def is_five_exp(n: int) -> bool:
 	while n >= 5:
 		n //= 5
 	return n == 1
+
+
+def valid_triangle(a, b, c):
+    return a + b > c and a + c > b and c + b > a
